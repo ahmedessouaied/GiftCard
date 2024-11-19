@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { app } from './firebase';
+import { app } from '../firebase';
 import { getDatabase, ref, set, push, onValue, remove, update } from "firebase/database";
 import { getAuth, signOut } from "firebase/auth"; // Import signOut
 import { useNavigate } from 'react-router-dom'; // Import useNavigate

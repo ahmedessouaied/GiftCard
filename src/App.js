@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ProductsPage from './ProductsPage';
-import ProductDetailPage from './ProductDetailPage';
-import Write from './Write';
-import LoginPage from './LoginPage';
+import ProductsPage from './pages/ProductsPage';
+import ProductDetailPage from './pages/ProductDetailPage';
+import Write from './pages/Write';
+import LoginPage from './pages/LoginPage';
 import PrivateRoute from './PrivateRoute'; 
 function App() {
     return (

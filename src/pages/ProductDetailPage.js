@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { app } from './firebase'; // Assuming firebase configuration is here
+import { app } from '../firebase'; // Assuming firebase configuration is here
 import { getDatabase, ref, get } from 'firebase/database';
 
 const ProductDetailPage = () => {
